@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap');
+
 :root {
     --main_font: 'Roboto',
-    sans-serif;
+        sans-serif;
     --heading_font: 'Pacifico',
-    cursive;
+        cursive;
 
 }
 
