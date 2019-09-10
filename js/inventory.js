@@ -55,8 +55,48 @@ function addProduce(organic, image, produce, price, percent, quantity) {
 const cherry = addProduce(true, '../img/001-cherry.png', 'Cherry', 2.90, 10, 5);
 const banana = addProduce(true, '../img/026-bananas.png', 'Banana', 2.99, '', 6);
 const mango = addProduce(false, '../img/014-mango.png', 'Mango', 1.08, '', 20);
+const avocado = addProduce(true, '../img/016-avocado.png', 'Avocado', 3.99, '', 7);
+const blueberry = addProduce(false, '../img/012-blueberry.png', 'Blueberry', 1.99, '', 8);
+const strawberry = addProduce(true, '../img/017-strawberry.png', 'Strawberry', 3.99, 5, 7);
+const kiwi = addProduce(true, '../img/019-kiwi.png', 'Kiwi', 3.49, '', 5);
+const grape = addProduce(true, '../img/020-grape.png', 'Grapes', 2.99, '', 4);
+const pomegranate = addProduce(true, '../img/025-pomegranate.png', 'Pomegranate', 4.50, 15, 3);
+const watermelon = addProduce(true, '../img/027-watermelon.png', 'Watermelon', 4.99, '', 8);
+const peach = addProduce(true, '../img/033-peach.png', 'Peach', 1.99, '', 4);
+const apple = addProduce(false, '../img/040-apple.png', 'Apples', 2.99, '10', 7);
+const orange = addProduce(true, '../img/042-orange.png', 'Oranges', 3.99, 7, 5);
+const tamarind = addProduce(true, '../img/043-tamarind.png', 'Tamarind', 3.99, 7, 6);
+const coconut = addProduce(true, '../img/044-coconut.png', 'Coconut', 4.99, 10, 4);
+const pumpkin = addProduce(true, '../img/046-pumpkin.png', 'Pumpkin', 4.99, '', 10);
+const papaya = addProduce(true, '../img/048-papaya.png', 'Papaya', 3.99, '', 5);
+const pineapple = addProduce(true, '../img/050-pineapple.png', 'Pineapple', 5.99, '', 4);
+const peanut = addProduce(true, '../img/003-peanut.png', 'Peanut', 3.99, '', 7);
+const pitaya = addProduce(true, '../img/004-pitaya.png', 'Pitaya', 4.99, '', 6);
+const onion = addProduce(true, '../img/005-onion.png', 'Onion', 1.99, '', 7);
+const tomato = addProduce(false, '../img/006-tomato.png', 'Tomato', 1.99, '', 8);
+const lettuce = addProduce(true, '../img/008-lettuce.png', 'Lettuce', 1.99, '', 9);
+const broccoli = addProduce(false, '../img/008-lettuce.png', 'Broccoli', 3.99, 15, 5);
+const corn = addProduce(false, '../img/010-corn.png', 'Corn', 2.99, '', 7);
+const potato = addProduce(true, '../img/013-potato.png', 'Potato', 2.99, '', 4);
+const bellpepper = addProduce(true, '../img/015-bell-pepper.png', 'Bell Pepper', 1.99, '', 6);
+const peas = addProduce(true, '../img/018-peas.png', 'Peas', 1.99, '', 5);
+const parsley = addProduce(true, '../img/021-parsley.png', 'Parsley', 1.99, '', 7);
+const cucumber = addProduce(true, '../img/022-cucumber.png', 'Cucumber', 0.99, '', 9);
+const ginger = addProduce(true, '../img/023-ginger.png', 'Ginger', 0.99, '', 10);
+const artichoke = addProduce(true, '../img/028-artichoke.png', 'Artichoke', 3.99, 6, 7);
+const carrot = addProduce(true, '../img/029-carrot.png', 'Carrot', 1.99, '', 8);
+const olive = addProduce(true, '../img/034-olive.png', 'Olive', 1.99, '', 4);
+const radish = addProduce(true, '../img/036-radish.png', 'Radish', 2.99, 10, 8);
+const mushroom = addProduce(true, '../img/037-mushroom.png', 'Mushroom', 1.79, '', 10);
+const chili = addProduce(true, '../img/038-chili.png', 'Chili', 1.99, '', 5);
+const lemon = addProduce(true, '../img/039-lemon.png', 'Lemon', 0.99, '', 12);
+const cabbage = addProduce(true, '../img/041-cabbage.png', 'Cabbage', 0.99, '', 8);
+const eggplant = addProduce(true, '../img/045-eggplant.png', 'Eggplant', 2.99, 10, 6);
+const asparagus = addProduce(true, '../img/049-asparagus.png', 'Asparagus', 3.99, 12, 9);
+
+
 //Throw all my produce into an array for a list
-const inventoryList = [cherry, banana, mango];
+const inventoryList = [cherry, banana, mango, avocado, blueberry, strawberry, kiwi, grape, pomegranate, watermelon, peach, apple, orange, tamarind, coconut, pumpkin, papaya, pineapple, peanut, pitaya, onion, tomato, lettuce, broccoli, corn, potato, bellpepper, peas, parsley, cucumber, ginger, artichoke, carrot, olive, radish, mushroom, chili, lemon, cabbage, eggplant, asparagus];
 
 // Make two methods, one responsible of making an element- REF: makeElement(), the other to create multiple attributes at my will - REF: makeAttributes()
 function makeElement(element, elementId, elementClass, text) {
