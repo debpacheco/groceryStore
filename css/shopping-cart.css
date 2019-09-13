@@ -1,0 +1,7 @@
+.img-responsive {
+    max-width: 14%;
+}
+
+#hero {
+    background-image: url('../img/hero_1.jpeg');
+}
