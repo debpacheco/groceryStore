@@ -124,6 +124,7 @@ const makeAttributes = function (element, ...attributes) {
 }
 
 //create a function that will create the layout for each list, but before I can do that, I should make a glabl createElement w/ needed info for repeated use
+// function listLayout (produceList)
 
 /*
 Visualize:
